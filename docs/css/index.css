@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    font-family: "ヒラギノ角ゴ StdN W8" , "Hiragino Kaku Gothic StdN" , "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif , "ヒラギノ角ゴ ProN";
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+a{
+    text-decoration: none
+}
+a:hover{
+    color: #ffffff;
+}
+a:visited{
+    color: #ffffff;
+}
+@media screen and (max-width:480px){
+    
+}
+@media screen and (min-width:480px) and (max-width:1100px){
+
+}
+
+.mainImg{
+    position: relative;
+    background: no-repeat center top 0/100% url("../img/mainImg.png");
+    background-size: 100% auto;
+    text-align: center;
+    color: #ffffff;
+    min-height: 1000px;
+}
+.mainImg .tit1{
+    position: absolute;
+    font-family: "ヒラギノ角ゴ StdN W8" , "Hiragino Kaku Gothic StdN";
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    top: 80px;
+    left: 100px;
+}
+.mainImg .tit2{
+    position: absolute;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN" , "ヒラギノ角ゴ ProN";
+    font-size: 25px;
+    letter-spacing: 3px;
+    top: 220px;
+    left: 100px;
+}
