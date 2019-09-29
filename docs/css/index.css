@@ -21,17 +21,29 @@ a:visited{
 
 }
 
-.mainImg{
+.contents{
     position: relative;
-    /* background: no-repeat center top 0/100% url("../img/mainImg.png");
-    background-size: 100% auto; */
     text-align: center;
     color: #ffffff;
 }
-.mainImg img{
+.contents .sns{
+    position: absolute;
+    top:15px;
+    right: 15px;
+}
+.contents .sns li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+.contents .sns img{
+    width: 50px;
+    height: auto;
+}
+.contents img{
     width: 100%;
 }
-.mainImg .tit1{
+.contents .tit1{
     position: absolute;
     font-family: "ヒラギノ角ゴ StdN W8" , "Hiragino Kaku Gothic StdN";
     font-size: 120px;
@@ -40,7 +52,7 @@ a:visited{
     top: 80px;
     left: 9%;
 }
-.mainImg .tit2{
+.contents .tit2{
     position: absolute;
     font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN" , "ヒラギノ角ゴ ProN";
     font-size: 25px;
@@ -48,15 +60,27 @@ a:visited{
     top: 220px;
     left: 9%;
 }
-.mainImg .menu{
+.contents .menu{
     margin-top: -18%;
     margin-left: 65%;
 }
-.mainImg .menu ul{
+.contents .menu ul{
 }
-.mainImg .menu li{
+.contents .menu li{
     list-style: none;
     text-align: left;
     font-size: 50px;
     line-height: 100px;
+    letter-spacing: 2px;
+}
+.contents .menu li::after{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/right-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 30px;
 }
