@@ -2,6 +2,7 @@
 
 body{
     font-family: "ヒラギノ角ゴ StdN W8" , "Hiragino Kaku Gothic StdN" , "HiraKakuStd-W8" , "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif , "ヒラギノ角ゴ ProN";
+    font-weight: bold;
     background-color: #000000 !important;
     color: #ffffff;
 }
