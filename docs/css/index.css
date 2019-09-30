@@ -159,11 +159,10 @@ a:visited{
         text-align: center;
         font-size: 40px;
         line-height: 80px;
+        letter-spacing: 12px;
     }
     .contents .menu li::after{
-        width: 30px;
-        height: 30px;
-        margin-left: 20px;
+        display: none;
     }
     
 }
