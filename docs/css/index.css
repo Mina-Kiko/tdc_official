@@ -137,29 +137,32 @@ a:visited{
         margin-left: 5%;
     }
     .contents .menu li{
+        font-size: 70px;
         line-height: 150px;
     }
     .contents .menu li:nth-child(2){
-        padding-left: 15%;
+        padding-left: 10%;
     }
     .contents .menu li:nth-child(3){
-        padding-left: 30%;
+        padding-left: 20%;
     }
     .contents .menu li:nth-child(4){
-        padding-left: 45%;
+        padding-left: 30%;
     }
 }
 @media screen and (max-width:480px){
     .contents .menu{
-        margin:5% 0 30% 10%;
+        width: 300px;
+        margin: 5% auto 15%;
     }
     .contents .menu li{
-        font-size: 30px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 80px;
     }
     .contents .menu li::after{
         width: 30px;
         height: 30px;
+        margin-left: 20px;
     }
     
 }
