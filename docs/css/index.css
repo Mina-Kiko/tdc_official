@@ -57,7 +57,7 @@ a:visited{
 }
 @media screen and (max-width:480px){
     .contents .mainImg img{
-        width: 110%;
+        width: 100%;
         padding-top: 20px;
     }
 }
