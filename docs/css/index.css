@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    font-family: "Noto Sans JP", "ヒラギノ角ゴ StdN W8" , "Hiragino Kaku Gothic StdN" , "HiraKakuStd-W8" , "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif , "ヒラギノ角ゴ ProN";
+    font-family: "Orbitron" , "Noto Sans JP" , sans-serif;
     font-weight: bold;
     background-color: #000000 !important;
     color: #ffffff;
@@ -66,7 +66,7 @@ a:visited{
 
 .contents .tit1{
     position: absolute;
-    font-family: "Noto Sans JP", "ヒラギノ角ゴ StdN W8" , "Hiragino Kaku Gothic StdN" , "HiraKakuStd-W8" , sans-serif;
+    font-family: "Orbitron" , "Noto Sans JP" , sans-serif;
     font-size: 120px;
     font-weight: bold;
     letter-spacing: 5px;
@@ -75,7 +75,7 @@ a:visited{
 }
 .contents .tit2{
     position: absolute;
-    font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN" , "ヒラギノ角ゴ ProN" , sans-serif;
+    font-family: "Orbitron" , "Noto Sans JP" , sans-serif;
     font-size: 25px;
     letter-spacing: 3px;
     top: 220px;
